@@ -15,7 +15,7 @@
 | The settings at the top | Which model the bot runs on, how many times each must-pass case runs (3), and how far the score can drop before the run fails (10 points) |
 | `ask_bot` | Sends one customer message to the bot in a brand new conversation, wrapped in `<customer_message>` tags like in [Lesson 10](../10-prompt-injection/part-3-fence-it-off.md) |
 | `check` | Runs the word checks from the golden set. Missing a `must_include` word or containing a `must_not_include` word is a fail. |
-| The loop in `main` | Goes through every case. Must-pass cases run three times. Every other case runs once. |
+| The loop in `main` | Goes through every case. Must-pass cases run three times. Every other case runs once. It prints one line per case as it goes, like `FAQ-01 ... pass`, so you can see it's moving. |
 | The score | The pass rate on the cases that aren't must-pass, compared with the number in `baseline.json` |
 | The report | A table of every case, what the bot said on each fail, and a list of must-pass cases a person still has to read. It prints to the log and to the run's summary page. |
 | The last two lines of `main` | Exit with an error if any must-pass case failed or the score dropped. This is what turns the check red. |
@@ -45,7 +45,7 @@ echo $?
 
 On Windows PowerShell, set the key with `$env:ANTHROPIC_API_KEY="your-key-here"` and check the exit code with `echo $LASTEXITCODE`.
 
-The last line prints the exit code: `0` if everything passed, `1` if something failed.
+While it runs, you'll see one line per case, like `FAQ-01 ... pass`. Then the report prints, and the last line prints the exit code: `0` if everything passed, `1` if something failed.
 
 **Then set your baseline.** `baseline.json` ships with an example score of 90%. After your first full run on your main branch, replace it with your real score. From then on, you only update it in a pull request, when the score has genuinely improved.
 

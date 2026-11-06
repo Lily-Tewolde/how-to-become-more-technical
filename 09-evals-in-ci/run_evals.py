@@ -77,6 +77,7 @@ def main():
         grades = [check(a, case) for a in answers]
         result = "fail" if "fail" in grades else grades[0]
         results.append((case["id"], "yes" if must_pass else "no", result))
+        print(f"{case['id']} ... {result}", file=sys.stderr, flush=True)  # progress, kept out of the report
         if result == "fail":
             failed_answers.append((case["id"], answers[grades.index("fail")]))
             if must_pass:

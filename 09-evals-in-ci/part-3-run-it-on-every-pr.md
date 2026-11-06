@@ -60,7 +60,7 @@ Two small details. The `@v7` on each action is its major version, which was curr
 
 To read the result:
 1. Click **Details** next to the check. This opens the run's log.
-2. Open the **Run the golden set** step to see everything the script printed.
+2. Open the **Run the golden set** step to see everything the script printed. That's one line per case as it ran, then the report.
 3. Go to the run's **Summary** page to see the report as a table. It's the same report, written to the summary by the script.
 
 When a check fails, read which one failed and why before you change anything. The report tells you:
