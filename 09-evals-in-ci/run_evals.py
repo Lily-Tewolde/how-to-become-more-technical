@@ -57,7 +57,10 @@ def main():
     args = parser.parse_args()
 
     if not os.environ.get("ANTHROPIC_API_KEY"):
-        sys.exit("No ANTHROPIC_API_KEY. Add it as a repo secret. (Pull requests from forks don't get secrets.)")
+        sys.exit(
+            "No ANTHROPIC_API_KEY. On your laptop, set it with export ANTHROPIC_API_KEY=... "
+            "In CI, add it as a repo secret. (Pull requests from forks don't get secrets.)"
+        )
 
     client = Anthropic()  # reads ANTHROPIC_API_KEY, retries some errors twice by default
     bot_prompt = (HERE / "bot-prompt.txt").read_text(encoding="utf-8")
