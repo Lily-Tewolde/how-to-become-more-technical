@@ -1,0 +1,46 @@
+# Runs the Polish & Co. golden set on every pull request.
+# In your own repo, this file goes at .github/workflows/evals.yml
+name: Evals
+
+on:
+  pull_request:
+  workflow_dispatch:
+    inputs:
+      set:
+        description: Which cases to run
+        type: choice
+        options:
+          - full
+          - smoke
+        default: full
+
+# The job only needs to read the code.
+permissions:
+  contents: read
+
+# If you push again while a run is going, cancel the old run to save money.
+concurrency:
+  group: evals-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  golden-set:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Get the code
+        uses: actions/checkout@v7
+
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.13"
+
+      - name: Install the Anthropic SDK
+        run: pip install -r evals/requirements.txt
+
+      - name: Run the golden set
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          EVAL_SET: ${{ github.event.inputs.set || 'full' }}
+        run: python evals/run_evals.py --set "$EVAL_SET"
