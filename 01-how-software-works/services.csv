@@ -1,0 +1,8 @@
+id,name,price,minutes
+classic-manicure,Classic manicure,35,45
+gel-manicure,Gel manicure,50,60
+gel-removal,Gel removal,15,20
+classic-pedicure,Classic pedicure,45,50
+gel-pedicure,Gel pedicure,60,60
+acrylic-full-set,Acrylic full set,70,90
+acrylic-fill,Acrylic fill,50,60

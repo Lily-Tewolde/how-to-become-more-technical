@@ -1,0 +1,12 @@
+id,service_id,tech,customer_name,start_time,end_time,status,price,deposit
+bk_1031,classic-manicure,Ama,Priya S.,2026-11-14 10:00,2026-11-14 10:45,confirmed,35,0
+bk_1032,gel-pedicure,Jo,Dana K.,2026-11-14 10:30,2026-11-14 11:30,confirmed,60,20
+bk_1033,acrylic-fill,Ama,Mei L.,2026-11-14 11:00,2026-11-14 12:00,confirmed,50,0
+bk_1034,gel-manicure,Jo,Rosa M.,2026-11-14 12:00,2026-11-14 13:00,confirmed,50,0
+bk_1035,acrylic-full-set,Ama,Tasha B.,2026-11-14 13:30,2026-11-14 15:00,confirmed,70,20
+bk_1036,classic-pedicure,Jo,Lena W.,2026-11-14 14:00,2026-11-14 14:50,confirmed,45,0
+bk_1037,gel-manicure,Ama,Grace O.,2026-11-14 15:00,2026-11-14 16:00,cancelled,50,0
+bk_1038,classic-manicure,Jo,Nadia R.,2026-11-14 15:00,2026-11-14 15:45,confirmed,35,0
+bk_1039,gel-removal,Ama,Chloe T.,2026-11-14 16:30,2026-11-14 16:50,confirmed,15,0
+bk_1040,gel-pedicure,Jo,Imani A.,2026-11-14 16:00,2026-11-14 17:00,confirmed,60,20
+bk_1041,acrylic-fill,Ama,Sofia P.,2026-11-14 17:30,2026-11-14 18:30,confirmed,50,0
