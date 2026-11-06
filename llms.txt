@@ -1,0 +1,156 @@
+# How to become more technical
+
+> A free, step-by-step learning hub for PMs and anyone who isn't an engineer but wants to understand how software and AI actually work. It's 13 lessons, from how apps and LLMs work to pull requests, evals, prompt injection, guardrails, red teaming and high-stakes AI, written in plain language. Made by Lily Tewolde.
+
+Every lesson uses the same running example, an AI booking assistant for a made-up nail salon called Polish & Co. Each lesson has a home page and three to six short parts of about 10 to 15 minutes, ending in a wrap up with interview-style questions and further reading. Lessons are labelled Beginner, Intermediate or Advanced. If a summary here and a lesson disagree, the lesson wins.
+
+## Start here
+
+- [Hub home](https://github.com/Lily-Tewolde/how-to-become-more-technical/blob/main/README.md): What the hub is, who it's for, the levels and the full lesson list
+- [The running example](https://github.com/Lily-Tewolde/how-to-become-more-technical/blob/main/example/README.md): The Polish & Co. FAQ and the rules the salon assistant follows, used in every lesson
+
+## Lesson 01, How software works
+
+- [Lesson home](https://github.com/Lily-Tewolde/how-to-become-more-technical/blob/main/01-how-software-works/README.md): Front end, back end, APIs, JSON, status codes, databases, environments and deploys, using a salon booking app. Beginner, 1 hour.
+- [Part 1, Front end and back end](https://github.com/Lily-Tewolde/how-to-become-more-technical/blob/main/01-how-software-works/part-1-front-end-and-back-end.md): You'll see what the front end and back end each do, why the back end gets the final say, and what happens when a customer taps Book in the Polish & Co. assistant.
+- [Part 2, APIs, JSON and status codes](https://github.com/Lily-Tewolde/how-to-become-more-technical/blob/main/01-how-software-works/part-2-apis-json-and-status-codes.md): You'll read the request the salon's front end sends when someone taps Book, read the response that comes back, learn the status codes you'll see in bug reports, and watch real requests in your own browser.
+- [Part 3, Databases](https://github.com/Lily-Tewolde/how-to-become-more-technical/blob/main/01-how-software-works/part-3-databases.md): You'll open the salon's two database tables, do the back end's job by hand to check whether a time is free, and write a new booking as a row.
+- [Part 4, Where code lives](https://github.com/Lily-Tewolde/how-to-become-more-technical/blob/main/01-how-software-works/part-4-where-code-lives.md): You'll see where the salon's code lives, the three places it runs, and what actually happens when someone says "we're deploying".
+- [Part 5, Wrap up](https://github.com/Lily-Tewolde/how-to-become-more-technical/blob/main/01-how-software-works/part-5-wrap-up.md): You'll check what you've got against the list, draw a request path on your own as the challenge, and practise the questions you'd get in an interview.
+
+## Lesson 02, How LLMs and agents work
+
+- [Lesson home](https://github.com/Lily-Tewolde/how-to-become-more-technical/blob/main/02-how-llms-and-agents-work/README.md): Tokens, prediction, context windows, system prompts, tool use, agents and RAG, plus why models make things up. Beginner, 1 hour.
+- [Part 1, Tokens and prediction](https://github.com/Lily-Tewolde/how-to-become-more-technical/blob/main/02-how-llms-and-agents-work/part-1-tokens-and-prediction.md): You'll see what tokens are, how a model builds a whole reply by predicting one token at a time, and why that makes it sound right even when it's wrong.
+- [Part 2, Context and prompts](https://github.com/Lily-Tewolde/how-to-become-more-technical/blob/main/02-how-llms-and-agents-work/part-2-context-and-prompts.md): You'll see what's in a model's context window, the difference between a system prompt and a user message, and you'll build the actual request the salon's back end sends to the model.
+- [Part 3, Tools, agents and RAG](https://github.com/Lily-Tewolde/how-to-become-more-technical/blob/main/02-how-llms-and-agents-work/part-3-tools-agents-and-rag.md): You'll give the salon assistant a tool, follow one booking request through the agent loop, decide when something counts as an agent, and see how RAG looks up the right part of the FAQ.
+- [Part 4, Three distinctions](https://github.com/Lily-Tewolde/how-to-become-more-technical/blob/main/02-how-llms-and-agents-work/part-4-three-distinctions.md): You'll learn three pairs of ideas that sound alike and aren't. Mixing them up is one of the most common ways AI features ship with a gap nobody noticed.
+- [Part 5, Wrap up](https://github.com/Lily-Tewolde/how-to-become-more-technical/blob/main/02-how-llms-and-agents-work/part-5-wrap-up.md): You'll check what you've got against the list, design the salon assistant's tools as the challenge, and practise the questions you'd get in an interview.
+
+## Lesson 03, Your first pull request
+
+- [Lesson home](https://github.com/Lily-Tewolde/how-to-become-more-technical/blob/main/03-your-first-pull-request/README.md): Fork the hub, add an FAQ answer on a branch, open a pull request, read the diff and merge, all in the browser. Beginner, 1 hour.
+- [Part 1, Why PRs matter, and your own copy](https://github.com/Lily-Tewolde/how-to-become-more-technical/blob/main/03-your-first-pull-request/part-1-why-prs-matter.md): You'll see why the PR matters to a PM, then make your own copy of the hub and open the file you'll change.
+- [Part 2, Make your change on a branch](https://github.com/Lily-Tewolde/how-to-become-more-technical/blob/main/03-your-first-pull-request/part-2-make-your-change.md): You'll add a gift card answer to the FAQ, save it to a new branch and point the PR at your own fork.
+- [Part 3, Open, review and merge your PR](https://github.com/Lily-Tewolde/how-to-become-more-technical/blob/main/03-your-first-pull-request/part-3-open-review-merge.md): You'll write a title and description, read your own diff like a reviewer, then merge and tidy up.
+- [Part 4, Wrap up](https://github.com/Lily-Tewolde/how-to-become-more-technical/blob/main/03-your-first-pull-request/part-4-wrap-up.md): You'll check your PR against the list, try a second PR as a challenge and practise the questions you'd get in an interview.
+
+## Lesson 04, Why PRs matter for a PM
+
+- [Lesson home](https://github.com/Lily-Tewolde/how-to-become-more-technical/blob/main/04-why-prs-matter-for-pms/README.md): Why the PR is where product decisions land, how to review one without reading every line, and how to write PRs that work as a paper trail. Beginner, 65 min.
+- [Part 1, Where decisions actually get made](https://github.com/Lily-Tewolde/how-to-become-more-technical/blob/main/04-why-prs-matter-for-pms/part-1-where-decisions-happen.md): You'll see why the PR is where product decisions really land, and learn the five places on a PR page that tell a PM what they need to know.
+- [Part 2, Read a PR like a PM](https://github.com/Lily-Tewolde/how-to-become-more-technical/blob/main/04-why-prs-matter-for-pms/part-2-read-a-pr.md): You'll review a made-up PR that changes the Polish & Co. cancellation policy, using the five places from Part 1, and write down what you'd raise.
+- [Part 3, Leave a review that helps](https://github.com/Lily-Tewolde/how-to-become-more-technical/blob/main/04-why-prs-matter-for-pms/part-3-leave-a-useful-review.md): You'll recreate Sam's PR in your own fork, leave review comments the author can act on, and submit a review.
+- [Part 4, Your PRs are your paper trail](https://github.com/Lily-Tewolde/how-to-become-more-technical/blob/main/04-why-prs-matter-for-pms/part-4-your-paper-trail.md): You'll rewrite the cancellation PR so it works as a record, link it to a ticket, add a description template to your fork, and see why small PRs are worth the extra clicks.
+- [Part 5, Wrap up](https://github.com/Lily-Tewolde/how-to-become-more-technical/blob/main/04-why-prs-matter-for-pms/part-5-wrap-up.md): You'll check your work against the list, try the challenge, see how PRs come up in interviews and practise the questions.
+
+## Lesson 05, Build something with an AI agent
+
+- [Lesson home](https://github.com/Lily-Tewolde/how-to-become-more-technical/blob/main/05-build-with-an-ai-agent/README.md): Plan with a CLAUDE.md, build a small FAQ assistant one step at a time with a coding agent, keep the API key safe and ship it as a PR. Intermediate, 75 min.
+- [Part 1, Plan it before you build it](https://github.com/Lily-Tewolde/how-to-become-more-technical/blob/main/05-build-with-an-ai-agent/part-1-plan-it.md): You'll see how I go from an idea to a build, decide exactly what this little assistant does, and write the `CLAUDE.md` your agent will follow.
+- [Part 2, Set up your project](https://github.com/Lily-Tewolde/how-to-become-more-technical/blob/main/05-build-with-an-ai-agent/part-2-set-up.md): You'll make a new repo, add your spec and the FAQ on a branch, install Claude Code, and set up your API key so it never touches a file.
+- [Part 3, Build it in small steps](https://github.com/Lily-Tewolde/how-to-become-more-technical/blob/main/05-build-with-an-ai-agent/part-3-build-in-small-steps.md): You'll get the agent's plan before any code, then build the assistant in three small steps, checking and committing after each one.
+- [Part 4, Review it and ship it as a PR](https://github.com/Lily-Tewolde/how-to-become-more-technical/blob/main/05-build-with-an-ai-agent/part-4-review-and-ship.md): You'll review the whole branch like it was someone else's PR, run a few more test questions, then push and open a PR that says what you checked and who wrote what.
+- [Part 5, Wrap up](https://github.com/Lily-Tewolde/how-to-become-more-technical/blob/main/05-build-with-an-ai-agent/part-5-wrap-up.md): You'll check your build against the list, try the challenge and practise the questions you'd get in an interview.
+
+## Lesson 06, Evals 101
+
+- [Lesson home](https://github.com/Lily-Tewolde/how-to-become-more-technical/blob/main/06-evals-101/README.md): Write 20 test cases with expected behaviour, mark the must-pass ones, run and grade them, and read the results by group. Beginner, 1 hour.
+- [Part 1, What an eval is](https://github.com/Lily-Tewolde/how-to-become-more-technical/blob/main/06-evals-101/part-1-what-an-eval-is.md): You'll see why an eval beats a vibe check, why you write it before the prompt, and what goes into each test case.
+- [Part 2, Write your 20 test cases](https://github.com/Lily-Tewolde/how-to-become-more-technical/blob/main/06-evals-101/part-2-write-your-test-cases.md): You'll turn the salon's rules into 20 test messages, write what a good answer does for each one, and mark the cases that have to pass every time.
+- [Part 3, Run and grade the set](https://github.com/Lily-Tewolde/how-to-become-more-technical/blob/main/06-evals-101/part-3-run-and-grade.md): You'll run every case in a fresh chat, run the must-escalate cases three times, and grade each answer pass or fail.
+- [Part 4, Read the results and rerun](https://github.com/Lily-Tewolde/how-to-become-more-technical/blob/main/06-evals-101/part-4-read-the-results.md): You'll read the results group by group, decide whether this version ships, then fix one thing and run the whole set again.
+- [Part 5, Wrap up](https://github.com/Lily-Tewolde/how-to-become-more-technical/blob/main/06-evals-101/part-5-wrap-up.md): You'll check your work against the list, try the challenge and practise the questions you'd get in an interview.
+
+## Lesson 07, Golden sets
+
+- [Lesson home](https://github.com/Lily-Tewolde/how-to-become-more-technical/blob/main/07-golden-sets/README.md): Grow the eval into a golden set that lasts: where cases come from, versioning in the repo, a held-out group and reading scores as ranges. Intermediate, 1 hour.
+- [Part 1, What makes a set golden](https://github.com/Lily-Tewolde/how-to-become-more-technical/blob/main/07-golden-sets/part-1-what-makes-it-golden.md): You'll see what changes when 20 test cases become a golden set, map what your set covers, and find the gaps.
+- [Part 2, Where good cases come from](https://github.com/Lily-Tewolde/how-to-become-more-technical/blob/main/07-golden-sets/part-2-where-cases-come-from.md): You'll pull new cases from five places, label what a good answer does for each one, and grow the set to about 40.
+- [Part 3, Version it and hold some back](https://github.com/Lily-Tewolde/how-to-become-more-technical/blob/main/07-golden-sets/part-3-version-and-hold-back.md): You'll put the golden set in your repo so every change has a history, split off a held-out group you don't tune against, and set a habit for keeping it fresh.
+- [Part 4, How many cases is enough](https://github.com/Lily-Tewolde/how-to-become-more-technical/blob/main/07-golden-sets/part-4-how-many-cases.md): You'll see how big a golden set should be, why a score on a small set is a rough reading, and why must-pass cases never get averaged in.
+- [Part 5, Wrap up](https://github.com/Lily-Tewolde/how-to-become-more-technical/blob/main/07-golden-sets/part-5-wrap-up.md): You'll check your work against the list, try the challenge and practise the questions you'd get in an interview.
+
+## Lesson 08, LLM-as-judge
+
+- [Lesson home](https://github.com/Lily-Tewolde/how-to-become-more-technical/blob/main/08-llm-as-judge/README.md): Use a second model to grade what code can't, with a pass or fail rubric, and check the judge against your own grades and its known biases. Intermediate, 1 hour.
+- [Part 1, What a judge is for](https://github.com/Lily-Tewolde/how-to-become-more-technical/blob/main/08-llm-as-judge/part-1-what-a-judge-is-for.md): You'll sort every check in your golden set into "code can do this" and "this needs judgment", and see why the must-pass cases should stay with code wherever possible.
+- [Part 2, Write the rubric](https://github.com/Lily-Tewolde/how-to-become-more-technical/blob/main/08-llm-as-judge/part-2-write-the-rubric.md): You'll pick what the judge grades, define pass and fail in plain words, and add examples so anyone (or any model) would grade the same way you do.
+- [Part 3, Write the judge prompt](https://github.com/Lily-Tewolde/how-to-become-more-technical/blob/main/08-llm-as-judge/part-3-write-the-judge-prompt.md): You'll turn the rubric into a judge prompt, pick which model does the judging, grade 12 salon replies yourself and then let the judge grade them too.
+- [Part 4, Check the judge](https://github.com/Lily-Tewolde/how-to-become-more-technical/blob/main/08-llm-as-judge/part-4-check-the-judge.md): You'll compare the judge's grades with yours, find out whether it catches the bad replies, fix it where it doesn't, and design around the biases every LLM judge has.
+- [Part 5, Wrap up](https://github.com/Lily-Tewolde/how-to-become-more-technical/blob/main/08-llm-as-judge/part-5-wrap-up.md): You'll check your work against the list, try the challenge and practise the questions you'd get in an interview.
+
+## Lesson 09, Evals in CI
+
+- [Lesson home](https://github.com/Lily-Tewolde/how-to-become-more-technical/blob/main/09-evals-in-ci/README.md): Run the golden set on every pull request with GitHub Actions, with must-pass gates, a baseline, secrets, flaky results and smoke sets. Intermediate, 1 hour.
+- [Part 1, What CI is](https://github.com/Lily-Tewolde/how-to-become-more-technical/blob/main/09-evals-in-ci/part-1-what-ci-is.md): You'll learn what CI means in plain words, the five GitHub Actions terms you'll keep seeing, and set up the folder your evals will live in.
+- [Part 2, The eval script](https://github.com/Lily-Tewolde/how-to-become-more-technical/blob/main/09-evals-in-ci/part-2-the-eval-script.md): You'll read the eval script in plain words, run it once yourself if you want to, and break the bot on purpose to watch the script catch it.
+- [Part 3, Run it on every pull request](https://github.com/Lily-Tewolde/how-to-become-more-technical/blob/main/09-evals-in-ci/part-3-run-it-on-every-pr.md): You'll store your API key as a GitHub secret, add the workflow file, open a pull request and read the result, then make the check required so a red result blocks the merge.
+- [Part 4, Cost, flaky results and smoke sets](https://github.com/Lily-Tewolde/how-to-become-more-technical/blob/main/09-evals-in-ci/part-4-cost-flakiness-smoke-sets.md): You'll work out what each run costs, decide what to do when a case passes sometimes and fails sometimes, and choose when to run the full set and when a smaller smoke set is enough.
+- [Part 5, Wrap up](https://github.com/Lily-Tewolde/how-to-become-more-technical/blob/main/09-evals-in-ci/part-5-wrap-up.md): You'll check your work against the list, try the challenge and practise the questions you'd get in an interview.
+
+## Lesson 10, Prompt injection, plainly
+
+- [Lesson home](https://github.com/Lily-Tewolde/how-to-become-more-technical/blob/main/10-prompt-injection/README.md): Direct and indirect prompt injection, attacking your own bot, and defences like least privilege, rules in code and human approval. Beginner to Intermediate, 1 hour.
+- [Part 1, How prompt injection works](https://github.com/Lily-Tewolde/how-to-become-more-technical/blob/main/10-prompt-injection/part-1-how-it-works.md): You'll see when prompt injection becomes a real risk, and the difference between the direct and indirect kinds.
+- [Part 2, Attack your own bot](https://github.com/Lily-Tewolde/how-to-become-more-technical/blob/main/10-prompt-injection/part-2-attack-your-own-bot.md): You'll list what your bot reads and does, try the attacks by hand, and turn them into a group in your golden set.
+- [Part 3, Fence it off](https://github.com/Lily-Tewolde/how-to-become-more-technical/blob/main/10-prompt-injection/part-3-fence-it-off.md): You'll wrap untrusted text so the model treats it as information, and take away every ability the bot doesn't need.
+- [Part 4, Rules, approvals and retests](https://github.com/Lily-Tewolde/how-to-become-more-technical/blob/main/10-prompt-injection/part-4-rules-approvals-retests.md): You'll enforce a hard rule outside the model, put a person in front of risky actions, and rerun the attacks on every change.
+- [Part 5, Wrap up](https://github.com/Lily-Tewolde/how-to-become-more-technical/blob/main/10-prompt-injection/part-5-wrap-up.md): You'll check your work against the list, try the challenge and practise the questions you'd get in an interview.
+
+## Lesson 11, Guardrails
+
+- [Lesson home](https://github.com/Lily-Tewolde/how-to-become-more-technical/blob/main/11-guardrails/README.md): Checks in code before and after the model, escalation, kind refusals, logging, and measuring false refusals. Intermediate, 1 hour.
+- [Part 1, Rules in code vs rules in the prompt](https://github.com/Lily-Tewolde/how-to-become-more-technical/blob/main/11-guardrails/part-1-code-vs-prompt.md): You'll see where guardrails sit around a model, and sort the salon's five rules into the ones a prompt can handle and the ones that need code.
+- [Part 2, Checks before the model](https://github.com/Lily-Tewolde/how-to-become-more-technical/blob/main/11-guardrails/part-2-checks-before.md): You'll build a must-escalate detector that catches allergic reactions, burns, infections, pregnancy questions and chargeback threats before the model ever sees them, then test it in both directions.
+- [Part 3, Checks after the model](https://github.com/Lily-Tewolde/how-to-become-more-technical/blob/main/11-guardrails/part-3-checks-after.md): You'll check every reply before a customer sees it. Prices must match the price list, there's no medical advice, and the tone rule flags anything cold or long.
+- [Part 4, Escalate, refuse kindly, log, and count the cost](https://github.com/Lily-Tewolde/how-to-become-more-technical/blob/main/11-guardrails/part-4-escalate-refuse-log.md): You'll make sure a handoff actually reaches a person, write refusals that don't feel like a slammed door, log every guardrail decision, and measure what your guardrails cost.
+- [Part 5, Wrap up](https://github.com/Lily-Tewolde/how-to-become-more-technical/blob/main/11-guardrails/part-5-wrap-up.md): You'll check your work against the list, try the challenge and practise the questions you'd get in an interview.
+
+## Lesson 12, Red teaming
+
+- [Lesson home](https://github.com/Lily-Tewolde/how-to-become-more-technical/blob/main/12-red-teaming/README.md): Threat models, attack categories, injection in agents with tools, rating findings by severity and turning them into tests. Advanced, 80 min.
+- [Part 1, Who would attack, and what they'd want](https://github.com/Lily-Tewolde/how-to-become-more-technical/blob/main/12-red-teaming/part-1-threat-model.md): You'll see how red teaming differs from your evals, meet the version of Polish & Co. you'll attack, and write a threat model for it.
+- [Part 2, The attack categories](https://github.com/Lily-Tewolde/how-to-become-more-technical/blob/main/12-red-teaming/part-2-attack-categories.md): You'll go through the main kinds of attack, see a salon example of each, and write an attack plan that covers every category before your session.
+- [Part 3, Injection in agents that use tools](https://github.com/Lily-Tewolde/how-to-become-more-technical/blob/main/12-red-teaming/part-3-agents-with-tools.md): You'll map every path from untrusted text to a tool, plant injections in that text, and check what the tools actually did, not just what the bot said.
+- [Part 4, Run a session and rate what you find](https://github.com/Lily-Tewolde/how-to-become-more-technical/blob/main/12-red-teaming/part-4-run-and-rate.md): You'll set up a red team session, run it, rate each finding by severity, and write it into the findings log.
+- [Part 5, Turn findings into tests, then retest](https://github.com/Lily-Tewolde/how-to-become-more-technical/blob/main/12-red-teaming/part-5-findings-to-tests.md): You'll turn every finding into golden set cases, fix the cause rather than the symptom, retest, and decide when the next session happens.
+- [Part 6, Wrap up](https://github.com/Lily-Tewolde/how-to-become-more-technical/blob/main/12-red-teaming/part-6-wrap-up.md): You'll check your work against the list, try the challenge and practise the questions you'd get in an interview.
+
+## Lesson 13, When AI mistakes are expensive
+
+- [Lesson home](https://github.com/Lily-Tewolde/how-to-become-more-technical/blob/main/13-when-ai-mistakes-are-expensive/README.md): Must-pass gates over averages, crisis protocols, the never list, audit trails, sign-off and monitoring for health, finance and insurance. Advanced, 80 min.
+- [Part 1, Why one miss outweighs a high average](https://github.com/Lily-Tewolde/how-to-become-more-technical/blob/main/13-when-ai-mistakes-are-expensive/part-1-one-miss.md): You'll see how a great average hides the failures that matter, then split your results into must-pass gates and averaged quality scores.
+- [Part 2, Crisis and safety protocols](https://github.com/Lily-Tewolde/how-to-become-more-technical/blob/main/13-when-ai-mistakes-are-expensive/part-2-crisis-protocols.md): You'll design the four steps every crisis protocol needs: detect, stop the normal flow, hand to a person, and give the right resource.
+- [Part 3, Hard rules, model judgment and the never list](https://github.com/Lily-Tewolde/how-to-become-more-technical/blob/main/13-when-ai-mistakes-are-expensive/part-3-hard-rules-never-list.md): You'll decide which decisions belong to rules in code, which to the model and which to a person, then write down what the AI is never allowed to do.
+- [Part 4, Audit trails, sign-off and monitoring](https://github.com/Lily-Tewolde/how-to-become-more-technical/blob/main/13-when-ai-mistakes-are-expensive/part-4-audit-review-monitoring.md): You'll design the record you keep for every important moment, decide who reviews and signs off on what, and plan what you'll watch after launch.
+- [Part 5, Putting it together on a telehealth intake assistant](https://github.com/Lily-Tewolde/how-to-become-more-technical/blob/main/13-when-ai-mistakes-are-expensive/part-5-telehealth-example.md): You'll put the whole lesson together on one made-up product, so you can see how the pieces fit.
+- [Part 6, Wrap up](https://github.com/Lily-Tewolde/how-to-become-more-technical/blob/main/13-when-ai-mistakes-are-expensive/part-6-wrap-up.md): You'll check your work against the list, try the challenge and practise the questions you'd get in an interview.
+
+## Reference
+
+- [Reference index](https://github.com/Lily-Tewolde/how-to-become-more-technical/blob/main/reference/README.md): The four reference pages and what each is for
+- [Glossary](https://github.com/Lily-Tewolde/how-to-become-more-technical/blob/main/reference/glossary.md): Every technical term the lessons use, A to Z, with a link to the part that teaches it
+- [Resources](https://github.com/Lily-Tewolde/how-to-become-more-technical/blob/main/reference/resources.md): Every outside link from the lessons, grouped by topic, tiered and labelled by level
+- [Common interview questions](https://github.com/Lily-Tewolde/how-to-become-more-technical/blob/main/reference/interview-questions.md): All the Check yourself questions with answers, grouped by topic
+- [Use this hub with Claude](https://github.com/Lily-Tewolde/how-to-become-more-technical/blob/main/reference/use-with-claude.md): How to point Claude at the hub, with example prompts
+
+## Optional
+
+- [Lesson 01 extra credit](https://github.com/Lily-Tewolde/how-to-become-more-technical/blob/main/01-how-software-works/extra-credit.md): You'll see what happens before the request leaves the phone, how the back end knows who's asking, and why tapping Book twice can make two bookings.
+- [Lesson 02 extra credit](https://github.com/Lily-Tewolde/how-to-become-more-technical/blob/main/02-how-llms-and-agents-work/extra-credit.md): You'll get a short look inside the model, see how fast long chats add up, and learn why some questions should never go to a search step.
+- [Lesson 03 extra credit](https://github.com/Lily-Tewolde/how-to-become-more-technical/blob/main/03-your-first-pull-request/extra-credit.md): You'll make the same kind of PR from your own computer, using the terminal.
+- [Lesson 05 extra credit](https://github.com/Lily-Tewolde/how-to-become-more-technical/blob/main/05-build-with-an-ai-agent/extra-credit.md): You'll turn two of your `CLAUDE.md` rules into limits Claude Code enforces itself, and share one instructions file between different coding agents.
+- [Lesson 10 extra credit](https://github.com/Lily-Tewolde/how-to-become-more-technical/blob/main/10-prompt-injection/extra-credit.md): You'll see how the defences in this lesson line up with OWASP's guidance.
+- [Lesson 11 extra credit](https://github.com/Lily-Tewolde/how-to-become-more-technical/blob/main/11-guardrails/extra-credit.md): You'll get a quick map of the guardrail tools and frameworks you'll hear about, and what each kind is good for.
+- [Lesson 12 extra credit](https://github.com/Lily-Tewolde/how-to-become-more-technical/blob/main/12-red-teaming/extra-credit.md): You'll see how a red team session lines up with the main security frameworks, and where automated tools fit.
+- [Lesson 13 extra credit](https://github.com/Lily-Tewolde/how-to-become-more-technical/blob/main/13-when-ai-mistakes-are-expensive/extra-credit.md): You'll see how the practices in this lesson line up with the frameworks and rules regulated teams cite.
+- [pr-description-template.md](https://github.com/Lily-Tewolde/how-to-become-more-technical/blob/main/04-why-prs-matter-for-pms/pr-description-template.md): Supporting file for Lesson 04, Why PRs matter for a PM
+- [starter-CLAUDE.md](https://github.com/Lily-Tewolde/how-to-become-more-technical/blob/main/05-build-with-an-ai-agent/starter-CLAUDE.md): Supporting file for Lesson 05, Build something with an AI agent
+- [salon-golden-set.csv](https://github.com/Lily-Tewolde/how-to-become-more-technical/blob/main/06-evals-101/salon-golden-set.csv): Supporting file for Lesson 06, Evals 101
+- [salon-golden-set-v2.csv](https://github.com/Lily-Tewolde/how-to-become-more-technical/blob/main/07-golden-sets/salon-golden-set-v2.csv): Supporting file for Lesson 07, Golden sets
+- [judge-rubric.md](https://github.com/Lily-Tewolde/how-to-become-more-technical/blob/main/08-llm-as-judge/judge-rubric.md): Supporting file for Lesson 08, LLM-as-judge
+- [judge-prompt.md](https://github.com/Lily-Tewolde/how-to-become-more-technical/blob/main/08-llm-as-judge/judge-prompt.md): Supporting file for Lesson 08, LLM-as-judge
+- [guardrails-checklist.md](https://github.com/Lily-Tewolde/how-to-become-more-technical/blob/main/11-guardrails/guardrails-checklist.md): Supporting file for Lesson 11, Guardrails
+- [red-team-cases.csv](https://github.com/Lily-Tewolde/how-to-become-more-technical/blob/main/12-red-teaming/red-team-cases.csv): Supporting file for Lesson 12, Red teaming
+- [never-list-template.md](https://github.com/Lily-Tewolde/how-to-become-more-technical/blob/main/13-when-ai-mistakes-are-expensive/never-list-template.md): Supporting file for Lesson 13, When AI mistakes are expensive

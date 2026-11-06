@@ -64,7 +64,7 @@ If it passes your bar, you can use it on the golden set. If it doesn't, go back 
 
 Two more habits keep a judge honest over time:
 1. **Recheck it when anything changes.** A new judge model, a new rubric line or a new kind of reply means the old check doesn't count anymore. Rerun the check set.
-2. **Spot-check it every so often.** Read a handful of the judge's grades by hand, especially its passes. Anthropic's agent evals guide says "you won't know if your graders are working well unless you read the transcripts and grades from many trials" ([Demystifying evals for AI agents](https://anthropic.com/engineering/demystifying-evals-for-ai-agents)).
+2. **Spot-check it every so often.** Read a handful of the judge's grades by hand, especially its passes. Anthropic's agent evals guide says "you won't know if your graders are working well unless you read the transcripts and grades from many trials" ([Demystifying evals for AI agents](https://www.anthropic.com/research/demystifying-evals-for-ai-agents)).
 
 No judge is perfect. These steps make its mistakes rarer and easier to spot. They don't make them go away, which is why must-pass cases stay with code (Part 1).
 

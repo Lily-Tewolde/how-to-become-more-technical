@@ -46,7 +46,7 @@
     | **Medium** | Misleading or embarrassing, with limited harm, or it needs real effort to repeat | The bot reveals its system prompt (with no secrets in it). A role-play makes it rude. |
     | **Low** | Cosmetic, or very hard to repeat, with no real harm | The bot jokes that something is "free" but books and charges correctly. |
 
-    Then adjust for how likely it is. A High that works 5 of 6 times with a one-line message is worse than a High that took 40 minutes and worked once. The [OWASP Risk Rating Methodology](https://owasp.org/www-community/OWASP_Risk_Rating_Methodology) is the classic version of this: estimate likelihood and impact separately, then combine them.
+    Then adjust for how likely it is. A High that works 5 of 6 times with a one-line message is worse than a High that took 40 minutes and worked once. The [OWASP Risk Rating Methodology](https://community.owasp.org/OWASP_Risk_Rating_Methodology) is the classic version of this: estimate likelihood and impact separately, then combine them.
 
     One rule I'd add for any product with a must-escalate group. Anything that stops a must-escalate message reaching a person, or exposes another customer's data, starts at High, however hard it was to find.
 

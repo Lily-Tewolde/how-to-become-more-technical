@@ -86,7 +86,7 @@ I'd pick a few measures, like escalation rate, confirmed misses, time to human p
 **Start here**
 - [People + AI Guidebook](https://pair.withgoogle.com/guidebook), Google PAIR. Practical, plain guidance on designing AI products people can trust, including what happens when the AI gets it wrong.
 - [WHO releases AI ethics and governance guidance for large multi-modal models](https://www.who.int/news/item/18-01-2024-who-releases-ai-ethics-and-governance-guidance-for-large-multi-modal-models), World Health Organization (2024). A short summary of the WHO's guidance on generative AI in health.
-- [Demystifying evals for AI agents](https://anthropic.com/engineering/demystifying-evals-for-ai-agents), Anthropic. Where pass@k and pass^k come from, and why repeated runs matter.
+- [Demystifying evals for AI agents](https://www.anthropic.com/research/demystifying-evals-for-ai-agents), Anthropic. Where pass@k and pass^k come from, and why repeated runs matter.
 
 **Go deeper**
 - [Good Machine Learning Practice for Medical Device Development: Guiding Principles](https://www.canada.ca/en/health-canada/services/drugs-health-products/medical-devices/good-machine-learning-practice-medical-device-development.html), Health Canada, US FDA and UK MHRA. Ten short principles, including human-AI teams and monitoring after launch.
@@ -104,7 +104,7 @@ I'd pick a few measures, like escalation rate, confirmed misses, time to human p
 
 ## What's next
 
-You've finished the main path. The reference section, with a glossary and common interview questions, is coming soon. For now, head back to the [hub home](../README.md) to pick a lesson to revisit, or try the challenges you skipped.
+You've finished the main path. Next, try the [common interview questions](../reference/interview-questions.md) out loud, or head back to the [hub home](../README.md) to revisit a lesson or try the challenges you skipped.
 
 [Back to the lesson](README.md) | ← Previous: [Red teaming](../12-red-teaming/) | **[Back to the hub home](../README.md)**
 

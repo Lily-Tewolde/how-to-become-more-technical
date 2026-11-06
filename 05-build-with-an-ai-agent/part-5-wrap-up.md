@@ -88,7 +88,7 @@ The same things as any PR, with a bit more suspicion. Does the description match
 **Go deeper**
 - [Best practices for Claude Code](https://code.claude.com/docs/en/best-practices), Anthropic. Tell it what it can't see, give it a check to run, and enforce the rules that can't have exceptions.
 - [Agentic Engineering Patterns](https://simonwillison.net/guides/agentic-engineering-patterns/), Simon Willison. Practical patterns from someone who builds with agents every day. Start with [How coding agents work](https://simonwillison.net/guides/agentic-engineering-patterns/how-coding-agents-work/).
-- [Building effective agents](https://www.anthropic.com/engineering/building-effective-agents), Anthropic. When to use an agent, when a simple workflow is better, and why.
+- [Building effective agents](https://www.anthropic.com/research/building-effective-agents), Anthropic. When to use an agent, when a simple workflow is better, and why.
 
 **Primary sources**
 - [Claude Code quickstart](https://code.claude.com/docs/en/quickstart) and [How Claude remembers your project](https://code.claude.com/docs/en/memory), Claude Code docs. Install, first session, and how `CLAUDE.md` and `AGENTS.md` load.

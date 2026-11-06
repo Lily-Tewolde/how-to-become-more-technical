@@ -25,7 +25,7 @@ Writing the eval first makes you decide what good looks like before you're attac
 - the model
 - the rules
 
-Anthropic's guide to agent evals says "20-50 simple tasks drawn from real failures is a great start" ([Anthropic, Demystifying evals for AI agents](https://anthropic.com/engineering/demystifying-evals-for-ai-agents)). So 20 is a real starting size. You'll grow it in the next lesson.
+Anthropic's guide to agent evals says "20-50 simple tasks drawn from real failures is a great start" ([Anthropic, Demystifying evals for AI agents](https://www.anthropic.com/research/demystifying-evals-for-ai-agents)). So 20 is a real starting size. You'll grow it in the next lesson.
 
 ## How it works
 

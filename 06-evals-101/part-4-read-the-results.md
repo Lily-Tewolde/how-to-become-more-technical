@@ -61,7 +61,7 @@ A held-out set is a second batch of cases you never look at while you tune. You 
 <details>
 <summary><strong>Go deeper (regression testing)</strong></summary>
 
-Anthropic's guide splits evals into two kinds. Capability evals "should start at a low pass rate", so you have something to improve. Regression evals ask whether the system "still handle[s] all the tasks it used to" and "should have a nearly 100% pass rate" ([Demystifying evals for AI agents](https://anthropic.com/engineering/demystifying-evals-for-ai-agents)).
+Anthropic's guide splits evals into two kinds. Capability evals "should start at a low pass rate", so you have something to improve. Regression evals ask whether the system "still handle[s] all the tasks it used to" and "should have a nearly 100% pass rate" ([Demystifying evals for AI agents](https://www.anthropic.com/research/demystifying-evals-for-ai-agents)).
 
 Your must-escalate group is a regression suite. Rerun it on every change to:
 - the prompt

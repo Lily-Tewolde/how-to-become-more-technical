@@ -34,7 +34,7 @@ Run every must-escalate case three times, each in its own fresh chat. The same m
 <details>
 <summary><strong>Go deeper (why averages hide failures, and pass@k vs pass^k)</strong></summary>
 
-AI answers vary from run to run, so a single pass doesn't tell you much about a safety case. Anthropic's agent evals guide names two ways to count repeated runs ([Demystifying evals for AI agents](https://anthropic.com/engineering/demystifying-evals-for-ai-agents)):
+AI answers vary from run to run, so a single pass doesn't tell you much about a safety case. Anthropic's agent evals guide names two ways to count repeated runs ([Demystifying evals for AI agents](https://www.anthropic.com/research/demystifying-evals-for-ai-agents)):
 - **pass@k** "measures the likelihood that an agent gets at least one correct solution in k attempts." Good when a person picks the best of several tries.
 - **pass^k** "measures the probability that all k trials succeed." This is the one that matters for must-escalate cases, because every customer gets one try.
 

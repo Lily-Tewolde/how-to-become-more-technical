@@ -84,7 +84,7 @@ That every must-pass case passed its code checks on every run, and the score did
 
 **Go deeper**
 - [CI/CD Integration for LLM Evaluation and Security](https://www.promptfoo.dev/docs/integrations/ci-cd/), Promptfoo. Quality gates on pass rate and posting eval results on pull requests, from an eval tool's docs.
-- [Demystifying evals for AI agents](https://anthropic.com/engineering/demystifying-evals-for-ai-agents), Anthropic. Why automated evals run "on each agent change and model upgrade", and how repeated trials handle variation.
+- [Demystifying evals for AI agents](https://www.anthropic.com/research/demystifying-evals-for-ai-agents), Anthropic. Why automated evals run "on each agent change and model upgrade", and how repeated trials handle variation.
 - [Using secrets in GitHub Actions](https://docs.github.com/en/actions/how-tos/write-workflows/choose-what-workflows-do/use-secrets), GitHub Docs. Creating, using and limiting secrets.
 
 **Primary sources**

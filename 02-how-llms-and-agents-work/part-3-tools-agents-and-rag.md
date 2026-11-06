@@ -79,7 +79,7 @@ Every arrow between the back end and the model is a full API request with the wh
 > "An LLM agent runs tools in a loop to achieve a goal."
 > [Simon Willison, I think "agent" may finally have a widely enough agreed upon definition to be useful jargon now (2025)](https://simonwillison.net/2025/Sep/18/agents/)
 
-Anthropic draws a useful line between workflows and agents. "Workflows are systems where LLMs and tools are orchestrated through predefined code paths", while agents are "LLMs using tools based on environmental feedback in a loop" ([Building effective agents](https://www.anthropic.com/engineering/building-effective-agents)).
+Anthropic draws a useful line between workflows and agents. "Workflows are systems where LLMs and tools are orchestrated through predefined code paths", while agents are "LLMs using tools based on environmental feedback in a loop" ([Building effective agents](https://www.anthropic.com/research/building-effective-agents)).
 
 Here's what each would look like at Polish & Co.:
 
@@ -123,7 +123,7 @@ So test them separately. "Did it find the right section?" and "did it answer cor
 
 - **Keyword search or meaning search.** Retrieval can look for matching words, or use **embeddings**, which turn text into numbers so that "can I bring my kid" lands near the kids' manicure section even with no shared words. Many systems use both.
 - **Chunking.** Documents are split into pieces before they're searched. Split on the natural unit, like one FAQ section or one whole email thread, not every 500 characters, or the answer gets cut in half.
-- **Context helps retrieval.** Anthropic's [Contextual retrieval](https://www.anthropic.com/engineering/contextual-retrieval) post shows how adding a short note to each chunk, explaining where it sits in the whole document, helps search find the right one.
+- **Context helps retrieval.** Anthropic's [Contextual retrieval](https://www.anthropic.com/research/contextual-retrieval) post shows how adding a short note to each chunk, explaining where it sits in the whole document, helps search find the right one.
 - **Retrieved text is untrusted.** Anything you retrieve gets read as part of the folder. If a document contains instructions, the model may follow them. That's indirect [prompt injection](../10-prompt-injection/).
 - **Where the name comes from.** The term was coined in [Lewis et al. (2020)](https://arxiv.org/abs/2005.11401), which combined a search step with a text generator.
 </details>

@@ -111,7 +111,7 @@ Confidence is how sure the model says it is. Correctness is whether it's actuall
 
 **Go deeper**
 - [Deep Dive into LLMs like ChatGPT](https://www.youtube.com/watch?v=7xTGNNLPyMI), Andrej Karpathy (video). Over three hours on how models are trained, from raw text to an assistant.
-- [Building effective agents](https://www.anthropic.com/engineering/building-effective-agents), Anthropic. Workflows vs agents, the common patterns, and when not to build an agent.
+- [Building effective agents](https://www.anthropic.com/research/building-effective-agents), Anthropic. Workflows vs agents, the common patterns, and when not to build an agent.
 - [How coding agents work](https://simonwillison.net/guides/agentic-engineering-patterns/how-coding-agents-work/), Simon Willison. The agent loop explained plainly, including why the conversation is resent every time.
 - [The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/), Jay Alammar. The best-known visual walkthrough of what's inside a model.
 - [LLM Course](https://huggingface.co/learn/llm-course), Hugging Face. Free and hands-on, for when you want to touch real models.

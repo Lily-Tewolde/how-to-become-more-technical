@@ -50,7 +50,7 @@ No. Attackers can keep trying until they hit the 5%, so a filter is one layer at
 <details>
 <summary><strong>5. You fixed an injection. How do you make sure it stays fixed?</strong></summary>
 
-Add it to the golden set as a must pass case, run it several times since outputs vary, and run it in CI on every pull request. I'd also break the defence on purpose once to confirm the test actually fails when it should.
+Add it to the golden set as a must-pass case, run it several times since outputs vary, and run it in CI on every pull request. I'd also break the defence on purpose once to confirm the test actually fails when it should.
 </details>
 
 ## Further reading

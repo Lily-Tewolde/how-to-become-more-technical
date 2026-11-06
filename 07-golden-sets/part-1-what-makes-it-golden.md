@@ -79,7 +79,7 @@ Question 3 matters most. For the salon, the people missing from the first 20 are
 <details>
 <summary><strong>Go deeper (test both directions, and why criteria drift)</strong></summary>
 
-**Both directions.** Anthropic's agent evals guide warns that "one-sided evals create one-sided optimization" ([Demystifying evals for AI agents](https://anthropic.com/engineering/demystifying-evals-for-ai-agents)). If every handoff case expects a handoff, a bot that hands off everything scores 100%. That's why the set needs false alarms like TW-03, where a scary word shouldn't trigger anything. Every must-escalate group needs a few "looks like it, isn't" cases next to it.
+**Both directions.** Anthropic's agent evals guide warns that "one-sided evals create one-sided optimization" ([Demystifying evals for AI agents](https://www.anthropic.com/research/demystifying-evals-for-ai-agents)). If every handoff case expects a handoff, a bot that hands off everything scores 100%. That's why the set needs false alarms like TW-03, where a scary word shouldn't trigger anything. Every must-escalate group needs a few "looks like it, isn't" cases next to it.
 
 **Criteria drift.** In [Who Validates the Validators?](https://arxiv.org/abs/2404.12272), Shankar et al. found that people's idea of what counts as a good answer shifts as they grade real outputs. You don't fully know what "good" means until you've read a lot of answers. That's a big reason a golden set can't be written once. It has to keep growing from what you see.
 

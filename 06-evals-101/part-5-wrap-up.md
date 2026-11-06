@@ -76,7 +76,7 @@ A lot. It won't show small improvements, like answers getting 5% better. It won'
 
 **Go deeper**
 - [AI Evals: Everything You Need to Know (FAQ)](https://hamel.dev/blog/posts/evals-faq/), Hamel Husain and Shreya Shankar. The most complete free resource. Great for interview prep too.
-- [Demystifying evals for AI agents](https://anthropic.com/engineering/demystifying-evals-for-ai-agents), Anthropic. Clear vocabulary for tasks, graders and repeated runs, including pass@k and pass^k.
+- [Demystifying evals for AI agents](https://www.anthropic.com/research/demystifying-evals-for-ai-agents), Anthropic. Clear vocabulary for tasks, graders and repeated runs, including pass@k and pass^k.
 - [Task-Specific LLM Evals that Do & Don't Work](https://eugeneyan.com/writing/evals/), Eugene Yan. Which checks actually work for which kinds of task.
 
 **Primary sources**

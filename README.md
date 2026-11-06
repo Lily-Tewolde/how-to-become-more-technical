@@ -46,7 +46,15 @@ Fork this repo and tick the boxes as you go.
 | [ ] | 12 | [Red teaming](12-red-teaming/) | Advanced | 80 min |
 | [ ] | 13 | [When AI mistakes are expensive](13-when-ai-mistakes-are-expensive/) | Advanced | 80 min |
 
-**Reference:** glossary, resource list and common interview questions. Coming soon.
+## Reference
+
+Keep these open while you learn, or come back to them before an interview.
+
+- [Glossary](reference/glossary.md): every technical word the lessons use, A to Z
+- [Resources](reference/resources.md): every outside link from the lessons, by topic and level
+- [Common interview questions](reference/interview-questions.md): the "Check yourself" questions from every lesson, with answers
+- [Use this hub with Claude](reference/use-with-claude.md): prompts for quizzing yourself and applying the lessons
+- [`llms.txt`](llms.txt): a map of the whole hub for AI tools to read
 
 ## Short on time?
 

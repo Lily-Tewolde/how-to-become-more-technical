@@ -8,7 +8,7 @@
 
 ### 12. Start small, and grow on purpose
 
-**20 to 50 is a real starting size.** Anthropic's agent evals guide says "20-50 simple tasks drawn from real failures is a great start" ([Demystifying evals for AI agents](https://anthropic.com/engineering/demystifying-evals-for-ai-agents)). Hamel Husain and Shreya Shankar's [AI Evals FAQ](https://hamel.dev/blog/posts/evals-faq/) adds that "a purpose-built eval set often grows to 100 or more examples."
+**20 to 50 is a real starting size.** Anthropic's agent evals guide says "20-50 simple tasks drawn from real failures is a great start" ([Demystifying evals for AI agents](https://www.anthropic.com/research/demystifying-evals-for-ai-agents)). Hamel Husain and Shreya Shankar's [AI Evals FAQ](https://hamel.dev/blog/posts/evals-faq/) adds that "a purpose-built eval set often grows to 100 or more examples."
 
 So 40 is a fine size for Polish & Co. today. You know you need more when:
 - a cell in your coverage grid from Part 1 is still empty

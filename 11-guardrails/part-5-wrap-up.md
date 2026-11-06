@@ -76,7 +76,7 @@ I test both directions. Bad inputs and outputs should get caught, and normal one
 ## Further reading
 
 **Start here**
-- [Safe and reliable AI via guardrails](https://www.deeplearning.ai/short-courses/safe-and-reliable-ai-via-guardrails/), DeepLearning.AI with Shreya Rajpal (Guardrails AI). A short video course with code. The page says access is free for a limited time.
+- [Safe and reliable AI via guardrails](https://www.deeplearning.ai/courses/safe-and-reliable-ai-via-guardrails), DeepLearning.AI with Shreya Rajpal (Guardrails AI). A short video course with code. The page says access is free for a limited time.
 - [Errors + Graceful Failure](https://pair.withgoogle.com/chapter/errors-failing/), Google People + AI Guidebook. How to design what users see when the AI gets it wrong.
 
 **Go deeper**

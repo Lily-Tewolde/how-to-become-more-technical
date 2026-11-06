@@ -79,7 +79,7 @@ So every change has a history and a review, and the automatic eval check reads t
 
 **Go deeper**
 - [Golden dataset evaluation: build and maintain LLM test sets](https://langfuse.com/resources/engineering/golden-dataset-evaluation), Langfuse. Practical advice on versioning, adding production failures and comparing prompt versions. It's written by a tool vendor, but the advice works with any tool.
-- [Demystifying evals for AI agents](https://anthropic.com/engineering/demystifying-evals-for-ai-agents), Anthropic. Balanced problem sets, saturation, and how evals graduate into regression suites.
+- [Demystifying evals for AI agents](https://www.anthropic.com/research/demystifying-evals-for-ai-agents), Anthropic. Balanced problem sets, saturation, and how evals graduate into regression suites.
 
 **Primary sources**
 - [Who Validates the Validators?](https://arxiv.org/abs/2404.12272), Shankar et al. (2024). Why you can't fully define "good" before you grade real outputs.
