@@ -7,7 +7,7 @@ You copy the project, make your change on a separate branch, and then ask for th
 > **TL;DR** A pull request (PR) is a proposal to change a project. It holds the change, the reason for it and the review in one place. In this guide you'll fork the hub, add a gift card answer to the Polish & Co. FAQ, open a PR, read your own diff and merge it.
 
 > [!TIP]
-> **New to this? Explain it like I'm new.**
+> **New to this? Let me break it down.**
 > Think of suggesting edits in a shared Google Doc.
 > - A **fork** is making your own copy of the doc so you can mark it up.
 > - A **branch** is a draft version of that copy. The clean version stays untouched while you work.

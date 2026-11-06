@@ -7,7 +7,7 @@ An eval is a fixed list of test messages, each with the answer you expect, that 
 > **TL;DR** Write 20 real-sounding customer messages for your AI, and next to each one write what a good answer does. Run them, mark each answer pass or fail, and read the results group by group. Some cases, like an allergic reaction, have to pass every single time, so a high average score doesn't count if one of those fails.
 
 > [!TIP]
-> **New to this? Explain it like I'm new.** Picture a new hire at the salon's front desk. Before they answer the phone alone, the manager runs through 20 pretend calls. "What do you say if someone asks about Sunday hours?" "What if someone says their finger is swollen after a visit?" Most answers can be a little off and that's fine. A few have to be right every time, like getting the manager on the line when someone's hurt. An eval is that practice run, written down so you can repeat it every time something changes.
+> **New to this? Let me break it down.** Picture a new hire at the salon's front desk. Before they answer the phone alone, the manager runs through 20 pretend calls. "What do you say if someone asks about Sunday hours?" "What if someone says their finger is swollen after a visit?" Most answers can be a little off and that's fine. A few have to be right every time, like getting the manager on the line when someone's hurt. An eval is that practice run, written down so you can repeat it every time something changes.
 
 **You'll need:**
 - [Lesson 5: Build something with an AI agent](../05-build-with-an-ai-agent/), or any small AI assistant you can send messages to

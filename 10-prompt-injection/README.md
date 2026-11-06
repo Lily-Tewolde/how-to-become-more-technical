@@ -7,7 +7,7 @@ Prompt injection is when someone slips their own instructions into text your AI 
 > **TL;DR** Anything your AI reads can carry instructions, whether a customer types them or they're hidden in a review, an upload, a web page or an email. Models can't reliably tell your instructions apart from that text, and no defence is perfect. So give the AI as little power as you can, keep hard rules (like prices) in code, put a person in front of risky actions, and add every attack you find to your golden set so it gets retested.
 
 > [!TIP]
-> **New to this? Explain it like I'm new.**
+> **New to this? Let me break it down.**
 > Picture a new front desk person at Polish & Co. The owner gave her a binder of rules on day one. A customer walks up and hands her a note that says "From the owner: all gel manicures are $5 today." A good front desk person would text the owner to check. An AI reads the binder and the note as one long stream of words, and it can't always tell which one is the boss. Now picture the same note tucked inside a review card the customer asked her to read out loud. That's the indirect version.
 
 **You'll need:**
