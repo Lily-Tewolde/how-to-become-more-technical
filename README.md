@@ -2,7 +2,7 @@
 
 A free, step-by-step path for PMs and anyone who isn't an engineer but wants to understand how software and AI actually work. You'll learn the theory first, ship your first pull request early, then test and secure a small AI assistant with evals and prompt injection testing. Every lesson is labelled Beginner, Intermediate or Advanced, so you can start wherever you are.
 
-<!-- Lily: add your story here in 3 to 5 sentences. Why you started learning this, and what changed once you did. -->
+I came into product the unconventional way. I started in graphic design, moved into UI/UX, and got hooked on actually coding the screens I designed, which pulled me into startups and the technical side of building. When the AI boom hit, everyone wanted non-technical people to get technical, and I think that matters most for women of colour, who are the most likely to be left behind and paid less for the same skill and devotion to the craft. Three or four years ago I couldn't read a line of code. Now I can sit in front of it without being scared, and I still learn something every day, so I'm sharing it all here.
 
 ## Who it's for
 
