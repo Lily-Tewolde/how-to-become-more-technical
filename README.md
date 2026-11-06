@@ -32,19 +32,19 @@ Fork this repo and tick the boxes as you go.
 
 | | # | Lesson | Level | Time |
 |---|---|---|---|---|
-| [ ] | 01 | How software works | Beginner | Coming soon |
-| [ ] | 02 | How LLMs and agents work | Beginner | Coming soon |
+| [ ] | 01 | [How software works](01-how-software-works/) | Beginner | 1 hour |
+| [ ] | 02 | [How LLMs and agents work](02-how-llms-and-agents-work/) | Beginner | 1 hour |
 | [ ] | 03 | [Your first pull request](03-your-first-pull-request/) | Beginner | 1 hour |
-| [ ] | 04 | Why PRs matter for a PM | Beginner | Coming soon |
-| [ ] | 05 | Build something with an AI agent | Intermediate | Coming soon |
+| [ ] | 04 | [Why PRs matter for a PM](04-why-prs-matter-for-pms/) | Beginner | 65 min |
+| [ ] | 05 | [Build something with an AI agent](05-build-with-an-ai-agent/) | Intermediate | 75 min |
 | [ ] | 06 | [Evals 101](06-evals-101/) | Beginner | 1 hour |
-| [ ] | 07 | Golden sets | Intermediate | Coming soon |
-| [ ] | 08 | LLM-as-judge | Intermediate | Coming soon |
-| [ ] | 09 | Evals in CI | Intermediate | Coming soon |
+| [ ] | 07 | [Golden sets](07-golden-sets/) | Intermediate | 1 hour |
+| [ ] | 08 | [LLM-as-judge](08-llm-as-judge/) | Intermediate | 1 hour |
+| [ ] | 09 | [Evals in CI](09-evals-in-ci/) | Intermediate | 1 hour |
 | [ ] | 10 | [Prompt injection, plainly](10-prompt-injection/) | Beginner to Intermediate | 1 hour |
-| [ ] | 11 | Guardrails | Intermediate | Coming soon |
-| [ ] | 12 | Red teaming | Advanced | Coming soon |
-| [ ] | 13 | When AI mistakes are expensive | Advanced | Coming soon |
+| [ ] | 11 | [Guardrails](11-guardrails/) | Intermediate | 1 hour |
+| [ ] | 12 | [Red teaming](12-red-teaming/) | Advanced | 80 min |
+| [ ] | 13 | [When AI mistakes are expensive](13-when-ai-mistakes-are-expensive/) | Advanced | 80 min |
 
 **Reference:** glossary, resource list and common interview questions. Coming soon.
 
