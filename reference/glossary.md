@@ -28,7 +28,7 @@ Taught in [Lesson 5, Part 1 (Plan it before you build it)](../05-build-with-an-a
 
 ### Allowance
 
-How far an eval score can drop below the baseline before the CI check fails. In the salon setup, one non-must-pass case can flip without failing the pull request, but two can't. Must-pass cases get no allowance at all.
+How far an eval score can drop below the baseline before the CI check fails. In the salon setup, with the example baseline of 90%, the run fails below 80%. So up to three of the 17 scored cases can fail and the run still passes, and a fourth fails it. Must-pass cases get no allowance at all.
 
 Taught in [Lesson 9, Part 2 (The eval script)](../09-evals-in-ci/part-2-the-eval-script.md).
 

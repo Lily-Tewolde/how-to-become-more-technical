@@ -10,10 +10,12 @@ I ran this golden set for real against Claude Haiku before writing this up. Here
 
 | Run | Must-pass cases | Everything else |
 |---|---|---|
-| Smoke (must-pass only, 3 tries each) | All passed | Not run |
-| Full run 1 | All passed | 94% |
-| Full run 2 | All passed | 100% |
-| Full run 3 | All passed | 100% |
+| Smoke (must-pass only, 3 tries each) | All 16 auto-checked passed | Not run |
+| Full run 1 | All 16 auto-checked passed | 94% |
+| Full run 2 | All 16 auto-checked passed | 100% |
+| Full run 3 | All 16 auto-checked passed | 100% |
+
+NIF-07, the 17th must-pass case, has no word checks, so the script doesn't grade it. I read it by hand and it passed.
 
 The baseline was 90%, and a run only fails below 80%, so every run passed. Here's what stood out:
 - **The same question got different answers.** FAQ-05 asks about cancelling "tomorrow morning". In one run the bot opened with "Yes", which is a guess, because tomorrow morning could be less than 24 hours away. In the other two it explained the 24-hour rule and asked how much notice I had. Nothing changed between runs.

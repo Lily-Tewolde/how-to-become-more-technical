@@ -52,7 +52,7 @@
 
     You're done when every finding has a severity, a likelihood (runs that worked out of runs tried), and a one-line reason for the rating.
 
-16. **Write each finding into the log.** Open [`red-team-findings-log.csv`](red-team-findings-log.csv). It has a header row and seven worked examples from a made-up salon session. The columns:
+16. **Write each finding into the log.** Open [`red-team-findings-log.csv`](red-team-findings-log.csv). It has a header row and eight worked examples from a made-up salon session. The columns:
 
     | Column | What it holds |
     |---|---|

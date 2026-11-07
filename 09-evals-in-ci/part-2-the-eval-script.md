@@ -26,7 +26,7 @@
 
 2. **"Pass" in CI means "passed the word checks".** That's weaker than a full pass. It catches a missing handoff or a banned word. It won't catch a made-up parking lot. Be clear about this when you tell people what the green tick means.
 
-3. **The score can drop 10 points before the run fails.** That sounds generous. Here's why. The v2 set has 17 cases that aren't must-pass and have word checks. One case is about 6 points. Remember from [Lesson 7, Part 4](../07-golden-sets/part-4-how-many-cases.md) that small sets wobble. A threshold tighter than one case would fail pull requests for noise. This one lets one case flip and catches two. Must-pass cases have no allowance at all.
+3. **The score can drop 10 points before the run fails.** That sounds generous. Here's why. The v2 set has 17 cases that aren't must-pass and have word checks. One case is about 6 points. Remember from [Lesson 7, Part 4](../07-golden-sets/part-4-how-many-cases.md) that small sets wobble. A threshold tighter than one case would fail pull requests for noise. With the example baseline of 90%, the run fails below 80%. So up to three of the 17 can fail and the run still passes, and a fourth fails it. Must-pass cases have no allowance at all.
 
 **You're done when** you can explain to someone what makes this script fail.
 
@@ -96,7 +96,7 @@ As "not checked". It's left out of the score, and it never counts as a pass.
 <details>
 <summary>2. Why can the score drop up to 10 points before the run fails?</summary>
 
-With 17 scored cases, one case is about 6 points, and small sets wobble. The threshold lets one case flip without failing the PR, and catches two. Must-pass cases get no allowance.
+With 17 scored cases, one case is about 6 points, and small sets wobble. With the example baseline of 90%, the run fails below 80%. So up to three of the 17 can fail and the run still passes, and a fourth fails it. Must-pass cases get no allowance.
 </details>
 
 <details>
