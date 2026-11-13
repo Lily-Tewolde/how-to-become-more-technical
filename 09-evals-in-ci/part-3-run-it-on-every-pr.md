@@ -86,10 +86,13 @@ When a check fails, read which one failed and why before you change anything. Th
 **A red cross only blocks the merge if you tell GitHub it's required.** Without that, someone can merge anyway. To make it required, add a branch protection rule for your main branch with **Require status checks to pass before merging** turned on, and pick the `golden-set` check. GitHub explains the options in [About protected branches](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches).
 
 Two things to know:
-- **Plan.** GitHub says "protected branches are available in public repositories with GitHub Free and GitHub Free for organizations". Private repos need a paid plan for this.
+- **Plan.** GitHub says "protected branches are available in public repositories with GitHub Free and GitHub Free for organizations". Private repos need a paid plan for this. The same goes for [rulesets](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-rulesets/about-rulesets), GitHub's newer way to set the same rule.
+- **Practising in a private repo on GitHub Free?** You won't be able to turn this on. You've got two options:
+  - Make your practice repo public, if nothing in it is private. Your API key stays safe either way, because it's stored as a GitHub secret, not in your code.
+  - Skip this step. The red cross still shows on every pull request. It just won't stop anyone merging.
 - **Don't let a required check get skipped.** You can tell a workflow to run only when certain files change. But GitHub warns that when a required workflow is skipped that way, its checks "stay in a 'Pending' state and block merging", and its advice is to "avoid requiring workflows that can be skipped" ([Troubleshooting required status checks](https://docs.github.com/en/pull-requests/how-tos/merge-and-close-pull-requests/troubleshooting-required-status-checks)). That's why `evals.yml` runs on every pull request.
 
-**You're done when** a pull request with a red `golden-set` check can't be merged.
+**You're done when** a pull request with a red `golden-set` check can't be merged. If you skipped this step on a private repo, you're done when you've seen the red cross on the pull request.
 
 ## Quick check
 
