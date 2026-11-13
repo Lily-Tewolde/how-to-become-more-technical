@@ -1,0 +1,34 @@
+# Runs my shared repo checks on every pull request and on main.
+# The checks live in Lily-Tewolde/.github, so a fix there reaches every repo.
+name: Checks
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  repo-checks:
+    uses: Lily-Tewolde/.github/.github/workflows/repo-checks.yml@main
+
+  lesson-05-tests:
+    name: Lesson 05 tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
+        with:
+          python-version: "3.13"
+
+      - name: Install the one library ask.py uses
+        run: python3 -m pip install anthropic==2.3.0
+
+      - name: Run the tests (none of them call the API)
+        working-directory: 05-build-with-an-ai-agent/reference
+        run: python3 -m unittest -v
