@@ -92,6 +92,34 @@ That's a real decision, and the closed PR is part of the record. Anyone who sugg
 
 You're done when the PR shows a red **Closed** badge with your comment above it.
 
+<details>
+<summary><strong>Go deeper (link a PR to Linear or Jira)</strong></summary>
+
+At work, the ticket usually lives in Linear or Jira, not in a GitHub issue. The idea is the same as `Closes #12`. You put the ticket's ID where the tool can see it, and the ticket moves on its own when the PR merges.
+
+**Linear**
+
+1. **Connect GitHub once.** In Linear, go to Settings > Features > Integrations > GitHub and click **Enable**. Pick your GitHub organization and which repos to include, then click **Install**. Everyone on the team also connects their own GitHub account under Settings > Connected accounts, so their work shows up as theirs.
+2. **Put the issue ID on the PR.** Linear IDs look like `ENG-123`. Copy the branch name from the issue with `Cmd/Ctrl + Shift + .` and use it for your branch. Or put the ID in the PR title, or write `Fixes ENG-123` in the description.
+3. **Watch it move.** By default, Linear moves the issue to In Progress when the PR opens and to Done when it merges. Your team can change that under Settings > Team > Workflows & automations ([Linear Docs, GitHub](https://linear.app/docs/github)).
+
+**Jira**
+
+1. **Connect GitHub once.** This needs a Jira site admin and a GitHub organization owner. In Jira, select **Apps**, then **Explore more apps**. Search for **GitHub for Atlassian** and select **Get app**. Then select **Get started**, choose **GitHub Cloud**, sign in to GitHub and click **Connect** next to your organization.
+2. **Put the work item key on the PR.** Jira keys look like `JRA-123`. Start your branch name with it, like `JRA-123-cancellation-copy`, and use it in your commit messages and the PR title. Atlassian says "When you create a pull request, use the key in the pull request title" ([Connect GitHub Cloud to Jira](https://support.atlassian.com/jira-cloud-administration/docs/integrate-with-github/)).
+3. **Make it move on merge.** The key alone puts the PR in the work item's development panel. It doesn't move the ticket. For that, your Jira admin adds an automation rule with the **Pull request merged** trigger and a step that moves the work item to Done ([Jira automation triggers](https://support.atlassian.com/cloud-automation/docs/jira-automation-triggers/)).
+
+You're done when the ticket shows your PR and moves to Done when it merges.
+
+<details>
+<summary>Stuck?</summary>
+
+- **You don't see Connect next to your GitHub organization.** Only an organization owner sees it. Ask one to connect it for you.
+- **The PR shows up in Jira but the ticket didn't move.** Showing and moving are separate in Jira. You need the automation rule from step 3.
+- **Your team doesn't use Linear or Jira.** Skip this. The GitHub version above is the same idea.
+</details>
+</details>
+
 ### 11. Add the template to your fork
 
 **Make every new PR start from the four sections.** In your fork, click **Add file**, then **Create new file**. Name it `.github/pull_request_template.md`. Typing the slash creates the folder. Paste in the template, commit it on a new branch called `docs/pr-template`, and open a PR with the title `Every new PR starts from the four-part description template`. Merge it.
